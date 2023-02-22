@@ -1,0 +1,26 @@
+{
+    "name": "subvitaminetm/abstracts",
+    "type": "library",
+    "description": "Abstracts library for Akkurate",
+    "version": "1.5.3",
+    "keywords": ["subvitaminetm akkurate abstracts"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Subvitamine",
+            "email": "hello@subvitamine.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.30"
+    },
+    "autoload": {
+        "psr-4": {
+            "Subvitamine\\Bean\\": "src/Bean/",
+            "Subvitamine\\Controller\\": "src/Controller/",
+            "Subvitamine\\DbTable\\": "src/DbTable/",
+            "Subvitamine\\Service\\": "src/Service/"
+        }
+    }
+}
